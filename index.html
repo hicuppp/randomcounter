@@ -5,16 +5,27 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="counter.css">
-  <title>Document</title>
+  <title>Hicuppp's Counter</title>
 </head>
 <body>
-  <h1>Counter</h1>
-  <h1 id="counter-display">0</h1>
-  <wrapper class="wrapper">
-    <button class="button-36" id="increment">Increment</button>
-    <button class="button-37" id="decrement">Decrement</button>
+  <wrapper class="right">
+    <h1 id="counter-header">Counter</h1>
+    <h1 id="counter-display">0</h1>
+    <wrapper class="wrapper">
+      <button class="button-36" id="increment">Increment</button>
+      <button class="button-37" id="decrement">Decrement</button>
+    </wrapper>
+    <button class="button-37" id="reset">End Counter</button>
+    <wrapper class="wrapper-2">
+      <h4>Current Counter Name</h4>
+      <input type="text" id="name-input" placeholder="Enter Counter Name">
+    </wrapper>
   </wrapper>
-  <button class="button-37" id="reset">Reset</button>
+  <wrapper class="left">
+    <h1>Previous Counters</h1>
+    <ul id="list">
+    </ul>
+  </wrapper>
 </body>
 <script src="counter.js"></script>
 </html>
